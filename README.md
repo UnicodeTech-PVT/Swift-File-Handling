@@ -5,8 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://dashboard.buddybuild.com/apps/5932f7d9b0c2b000015d6b79/build/latest?branch=master">
-        <img src="https://dashboard.buddybuild.com/api/statusImage?appID=5932f7d9b0c2b000015d6b79&branch=master&build=latest" alt="BuddyBuild" />
+    <a >
     </a>
     <img src="https://img.shields.io/badge/Swift-5.0-orange.svg" />
     <a href="https://cocoapods.org/pods/Files">
@@ -18,8 +17,8 @@
     <a href="https://swift.org/package-manager">
         <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
     </a>
-    <a href="https://twitter.com/johnsundell">
-        <img src="https://img.shields.io/badge/contact-@johnsundell-blue.svg?style=flat" alt="Twitter: @johnsundell" />
+    <a href="https://linkedin.com/unicodetech">
+        <img src="https://img.shields.io/badge/contact-@unicodetech-blue.svg?style=flat" alt="linkedin: @unicodetech" />
     </a>
 </p>
 
@@ -60,7 +59,7 @@ Folder.home.subfolders.recursive.forEach { folder in
 Create, write and delete files and folders:
 
 ```swift
-let folder = try Folder(path: "/users/john/folder")
+let folder = try Folder(path: "/users/unicodetech/folder")
 let file = try folder.createFile(named: "file.json")
 try file.write("{\"hello\": \"world\"}")
 try file.delete()
@@ -70,8 +69,8 @@ try folder.delete()
 Move all files in a folder to another:
 
 ```swift
-let originFolder = try Folder(path: "/users/john/folderA")
-let targetFolder = try Folder(path: "/users/john/folderB")
+let originFolder = try Folder(path: "/users/unicodetech/folderA")
+let targetFolder = try Folder(path: "/users/unicodetech/folderB")
 try originFolder.files.move(to: targetFolder)
 ```
 
@@ -95,7 +94,7 @@ Files can be easily used in either a Swift script, a command line tool, or in an
 To install Files for use in a Swift Package Manager-powered tool, script or server-side application, add Files as a dependency to your `Package.swift` file. For more information, please see the [Swift Package Manager documentation](https://github.com/apple/swift-package-manager/tree/master/Documentation).
 
 ```swift
-.package(url: "https://github.com/JohnSundell/Files", from: "4.0.0")
+.package(url: "https://github.com/UnicodeTech-PVT/Files", from: "4.0.0")
 ```
 
 ### Using CocoaPods or Carthage
@@ -114,4 +113,4 @@ So, I made **Files**, to enable me to quickly handle files and folders, in an ex
 
 ## Questions or feedback?
 
-Feel free to [open an issue](https://github.com/JohnSundell/Files/issues/new), or find me [@johnsundell on Twitter](https://twitter.com/johnsundell).
+Feel free to [open an issue](https://github.com/UnicodeTech-PVT/Files/issues/new), or find me [@unicodetech786](https://linkedin.com/unicodetech).
